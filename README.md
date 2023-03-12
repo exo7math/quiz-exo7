@@ -5,14 +5,14 @@ Ce repo contient toutes les questions de la web-application [https://dmegy.perso
 
 Les questions se trouvent au format latex (syntaxe AMC), dans le dossier ```latex-amc/```.
 
-Pour prévisualiser rapidement et choisir des questions, utiliser le fichier ```preview.pdf```. Son fichier source permet de comprendre comment importer les questions simplement dans un fichier tex.
+Pour prévisualiser rapidement et choisir des questions, utiliser le fichier ```catalogue.pdf```. Son fichier source permet de comprendre comment importer les questions simplement dans un fichier tex.
 
-Le fichier ```preview-amc.pdf``` contient les questions au format AMC (Auto-multiple-choice). 
+Le fichier ```catalogue-amc.pdf``` contient les questions au format AMC (Auto-multiple-choice). Sa source permet de voir comment exporter les questions au format AMC, mais il y aura bientôt plus d'exemples.
 
 Exemples
 ---
 
-Le fichier exemple-interro.pdf (et sa source) permettent de voir comment importer les questions pour une petite interrogation. Il y a une variation avec une sortie au format AMC.
+Le fichier ```exemple-interro.pdf``` (et sa source) permettent de voir comment importer les questions pour une petite interrogation. Il y aura une variation avec une sortie au format AMC.
 
 Prévisualisation et édition de listes à l'aide d'une page HTML
 ---
