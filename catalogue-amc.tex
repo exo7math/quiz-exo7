@@ -3,13 +3,18 @@
 \usepackage[utf8]{inputenc} % permet de taper des caractères accentués dans le fichier source
 \usepackage[T1]{fontenc} % permet d'afficher correctement les caractères accentués, avec césures etc
 \usepackage{lmodern} % rétablissement des polices vectorielles
-\usepackage{amssymb,amsthm,amsmath,mathrsfs,stmaryrd,multicol} 
+\usepackage{amssymb,amsthm,amsmath,mathrsfs,stmaryrd,multicol,url} 
 \usepackage{tikz}
-\usepackage[francais,bloc,ordre]{automultiplechoice} % option 'bloc' pour ne pas changer de page dans une question, et 'ordre' pour ne pas permuter les réponses.
+\usepackage[francais,bloc,ordre,correc]{automultiplechoice} % option 'bloc' pour ne pas changer de page dans une question, et 'ordre' pour ne pas permuter les réponses. Option 'correc' pour marquer la correction
 
 
-\newcommand\pad[1]{\ifnum #1 < 1000 0\fi \ifnum #1 < 100 0\fi \ifnum #1 < 10 0\fi #1} % un peu moche mais bon
+\newcommand\pad[1]{\ifnum #1 < 1000 0\fi \ifnum #1 < 100 0\fi \ifnum #1 < 10 0\fi #1} % pad les entiers à quatre digits : très moche mais bon, on va pas utiliser un package juste pour ça.
+
+% ne pas afficher les commentaires : 
 \newenvironment{comment}{Commentaire après réponse: }{}
+
+% pour afficher les cases vrai / faux sur une même ligne : 
+\renewenvironment{reponses}{\begin{reponseshoriz}}{\end{reponseshoriz}}
 
 
 
@@ -32,6 +37,21 @@
 
 
 \begin{document}
+
+\title{Catalogue}
+\author{Damien Mégy}
+
+\maketitle
+
+Cet document affiche le catalogue de tous les vrai-faux disponibles à l'adresse \url{https://github.com/exo7math/quiz-exo7}, au format latex-AMC (auto-multiple-choice). Pour plus d'exemples d'utilisation, voir le sous-dossier \og exemples/\fg.
+
+
+Ces questions sont celles de l'application de vrai-faux \url{https://dmegy.perso.math.cnrs.fr/quiz}.
+
+Les questions sont en vrac. Des listes thématiques seront disponibles dans le sous-dossier \og listes\fg{} du repo github. 
+
+\vspace{1cm}
+
 \foreach \n in {1, ..., 1600} {%
 	\IfFileExists{latex_amc/10\pad{\n}.tex}{%
 		\begin{question}{q\n} %

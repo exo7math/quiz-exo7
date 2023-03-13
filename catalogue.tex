@@ -4,7 +4,7 @@
 \usepackage[T1]{fontenc} % permet d'afficher correctement les caractères accentués, avec césures etc
 \usepackage{lmodern} % rétablissement des polices vectorielles
 \usepackage[margin=1cm]{geometry}
-\usepackage{amssymb,amsthm,amsmath,mathrsfs,stmaryrd,multicol,comment} 
+\usepackage{amssymb,amsthm,amsmath,mathrsfs,stmaryrd,multicol,comment,url} 
 \usepackage{tikz}
 %\usepackage[francais,bloc,ordre]{automultiplechoice} % option 'bloc' pour ne pas changer de page dans une question, et 'ordre' pour ne pas permuter les réponses.
 
@@ -35,6 +35,17 @@
 
 
 \begin{document}
+\title{Catalogue}
+\author{Damien Mégy}
+\maketitle
+Cet document affiche le catalogue de tous les vrai-faux disponibles à l'adresse \url{https://github.com/exo7math/quiz-exo7} de manière compacte, pour une prévisualisation rapide. Pour plus d'exemples d'utilisation, voir le sous-dossier \og exemples/\fg.
+
+Ces questions sont celles de l'application de vrai-faux \url{https://dmegy.perso.math.cnrs.fr/quiz}.
+
+Les questions sont en vrac. Des listes thématiques seront disponibles dans le sous-dossier \og listes\fg{} du repo github. 
+
+\vspace{1cm}
+
 \foreach \n in {1, ..., 1600} {%
 	\IfFileExists{latex_amc/10\pad{\n}.tex}{%
 		\noindent \textbf{10\pad{\n}.tex --- }
