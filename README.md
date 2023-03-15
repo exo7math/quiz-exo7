@@ -21,6 +21,11 @@ Prévisualisation et édition de listes à l'aide d'une page HTML
 
 En cours de construction : une page web permettra de visualiser toutes les questions, de cocher/décocher celles que l'on veut inclulre dans une liste de questions, puis d'exporter au format latex standard, ou bien latex-AMC.
 
+Contributeurs
+---
+
+Pour l'instant, Damien Mégy, Maxime Bourrigan, d'autres en attente de validation !
+
 
 
 
