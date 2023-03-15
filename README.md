@@ -12,7 +12,9 @@ Le fichier ```catalogue-amc.pdf``` contient les questions au format AMC (Auto-mu
 Exemples
 ---
 
-Le fichier ```exemple-interro.pdf``` (et sa source) permettent de voir comment importer les questions pour une petite interrogation. Il y aura une variation avec une sortie au format AMC.
+Des exemples se trouvent dans le dossier ```Exemples```. Il y a pour l'instant un exemple d'interrogation dans un format latex normal, et un autre exemple au format automultiplechoice.
+
+
 
 Prévisualisation et édition de listes à l'aide d'une page HTML
 ---

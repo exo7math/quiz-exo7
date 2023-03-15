@@ -1,0 +1,87 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage[french]{babel} % réglage de la langue
+\usepackage[utf8]{inputenc} % permet de taper des caractères accentués dans le fichier source
+\usepackage[T1]{fontenc} % permet d'afficher correctement les caractères accentués, avec césures etc
+\usepackage{lmodern} % rétablissement des polices vectorielles
+\usepackage[margin=2cm]{geometry}
+\usepackage{amssymb,amsthm,amsmath,mathrsfs,stmaryrd,multicol,comment} 
+\usepackage{tikz}
+%\usepackage[francais,bloc,ordre]{automultiplechoice} % option 'bloc' pour ne pas changer de page dans une question, et 'ordre' pour ne pas permuter les réponses.
+
+
+\newcommand\pad[1]{\ifnum #1 < 1000 0\fi \ifnum #1 < 100 0\fi \ifnum #1 < 10 0\fi #1} % un peu moche mais bon : sert à ajouetr la bonne quantité de zéros devant un numero de question
+
+\newenvironment{reponses}{\begin{center}}{\end{center}}
+\newcommand{\mauvaise}[1]{\hspace{.5cm}#1\hspace{.5cm}}
+\newcommand{\bonne}[1]{\hspace{.5cm}\fbox{#1}\hspace{.5cm}}
+
+% si on ne veut pas afficher la correction, commenter la ligne précédente et décommenter la ligne suivante:
+%\newcommand{\bonne}[1]{\hspace{.5cm}#1\hspace{.5cm}}
+
+
+
+% packages et macros pour questions Maxime :
+\usepackage{mathdots}
+\newcommand{\R}{\mathbb R}
+\newcommand{\C}{\mathbb C}
+\newcommand{\N}{\mathbb N}
+\newcommand{\Z}{\mathbb Z}
+\newcommand{\eq}[1]{\underset{#1}{\sim}}
+\newcommand{\cvg}[1]{\xrightarrow[#1]{}}
+\DeclareMathOperator{\tr}{Tr}
+\DeclareMathOperator{\id}{Id}
+\DeclareMathOperator{\rg}{rg}
+\DeclareMathOperator{\im}{Im}
+\DeclareMathOperator{\Mat}{Mat}
+
+\theoremstyle{definition}
+\newtheorem{question}{Question}
+
+
+
+\begin{document}
+
+NOM, PRÉNOM : 
+
+\begin{center}
+\huge{Interro 3 : révisions}\\
+\large{CONSIGNE : entourez la bonne réponse.}
+\end{center}
+
+\setlength\columnsep{1cm}
+\begin{multicols}{2}
+
+\section{Arithmétique}
+\foreach \n in {92,95,107,109,97,99,100} {%
+	\begin{question}%
+	\input{../latex_amc/10\pad{\n}.tex}%
+	\end{question}%
+}%
+
+\section{Dérivées}
+\foreach \n in {239,240,244,245,255,261} {%
+	\begin{question}%
+	\input{../latex_amc/10\pad{\n}.tex}%
+	\end{question}%
+}%
+
+\columnbreak
+
+\section{Valeur absolue}
+\foreach \n in {1, 2,3,6,12,19} {%
+	\begin{question}%
+	\input{../latex_amc/10\pad{\n}.tex}%
+	\end{question}%
+}%
+
+\section{Racines carrées}
+\foreach \n in {748,749,758,761,767,775} {%
+	\begin{question}%
+	\input{../latex_amc/10\pad{\n}.tex}%
+	\end{question}%
+}%
+
+
+\end{multicols}
+
+\end{document}
