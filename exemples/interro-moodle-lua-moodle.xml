@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This is a question bank made for Moodle -->
+<!-- It was generated on 2023-03-17 10:22 by LuaLaTeX running -->
+<!-- on *NIX with the package moodle v1.0 (2023/01/28) -->
+
+<quiz>
+ 
+<question type="category">
+  <category>
+    <text>$course$/top/Essai de quiz</text>
+  </category>
+</question>
+ 
+<question type="truefalse">
+  <name format="html">
+    <text><![CDATA[q-1]]></text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>\(|5-3\sqrt 2|&gt;1\). </p>]]></text>
+  </questiontext>
+  <defaultgrade>1.0</defaultgrade>
+  <generalfeedback format="html"><text/></generalfeedback>
+  <penalty>1</penalty>
+  <hidden>0</hidden>
+  <answer fraction="0" format="plain_text">
+    <text>true</text>
+    <feedback format="html"><text><![CDATA[<p>Vrai </p>]]></text></feedback>
+  </answer>
+  <answer fraction="100" format="plain_text">
+    <text>false</text>
+    <feedback format="html"><text><![CDATA[<p> Faux</p>]]></text></feedback>
+  </answer>
+</question>
+<question type="truefalse">
+  <name format="html">
+    <text><![CDATA[q-2]]></text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>\(\sqrt {x^2}=|x|\). </p>]]></text>
+  </questiontext>
+  <defaultgrade>1.0</defaultgrade>
+  <generalfeedback format="html"><text/></generalfeedback>
+  <penalty>1</penalty>
+  <hidden>0</hidden>
+  <answer fraction="100" format="plain_text">
+    <text>true</text>
+    <feedback format="html"><text><![CDATA[<p> Vrai </p>]]></text></feedback>
+  </answer>
+  <answer fraction="0" format="plain_text">
+    <text>false</text>
+    <feedback format="html"><text><![CDATA[<p>Faux</p>]]></text></feedback>
+  </answer>
+</question>
+<question type="truefalse">
+  <name format="html">
+    <text><![CDATA[q-3]]></text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>\(|x+3|&lt;2\) est équivalent à \(1 &lt; x &lt; 5\). </p>]]></text>
+  </questiontext>
+  <defaultgrade>1.0</defaultgrade>
+  <generalfeedback format="html"><text/></generalfeedback>
+  <penalty>1</penalty>
+  <hidden>0</hidden>
+  <answer fraction="0" format="plain_text">
+    <text>true</text>
+    <feedback format="html"><text><![CDATA[<p>Vrai </p>]]></text></feedback>
+  </answer>
+  <answer fraction="100" format="plain_text">
+    <text>false</text>
+    <feedback format="html"><text><![CDATA[<p> Faux</p>]]></text></feedback>
+  </answer>
+</question>
+<question type="truefalse">
+  <name format="html">
+    <text><![CDATA[q-6]]></text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Si \(|x-1|&lt;1\), alors \(|x|&lt;2\). </p>]]></text>
+  </questiontext>
+  <defaultgrade>1.0</defaultgrade>
+  <generalfeedback format="html"><text/></generalfeedback>
+  <penalty>1</penalty>
+  <hidden>0</hidden>
+  <answer fraction="100" format="plain_text">
+    <text>true</text>
+    <feedback format="html"><text><![CDATA[<p> Vrai </p>]]></text></feedback>
+  </answer>
+  <answer fraction="0" format="plain_text">
+    <text>false</text>
+    <feedback format="html"><text><![CDATA[<p>Faux</p>]]></text></feedback>
+  </answer>
+</question>
+<question type="truefalse">
+  <name format="html">
+    <text><![CDATA[q-12]]></text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Si \(|x-3|\leq 1\) ou \(|x-7|\leq 1\), alors \(|x-5|\leq 3\). </p>]]></text>
+  </questiontext>
+  <defaultgrade>1.0</defaultgrade>
+  <generalfeedback format="html"><text/></generalfeedback>
+  <penalty>1</penalty>
+  <hidden>0</hidden>
+  <answer fraction="100" format="plain_text">
+    <text>true</text>
+    <feedback format="html"><text><![CDATA[<p> Vrai </p>]]></text></feedback>
+  </answer>
+  <answer fraction="0" format="plain_text">
+    <text>false</text>
+    <feedback format="html"><text><![CDATA[<p>Faux</p>]]></text></feedback>
+  </answer>
+</question>
+<question type="truefalse">
+  <name format="html">
+    <text><![CDATA[q-19]]></text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>Si \(|x+1|&gt;1\), alors \(|x+2|&gt;1\). </p>]]></text>
+  </questiontext>
+  <defaultgrade>1.0</defaultgrade>
+  <generalfeedback format="html"><text/></generalfeedback>
+  <penalty>1</penalty>
+  <hidden>0</hidden>
+  <answer fraction="0" format="plain_text">
+    <text>true</text>
+    <feedback format="html"><text><![CDATA[<p>Vrai </p>]]></text></feedback>
+  </answer>
+  <answer fraction="100" format="plain_text">
+    <text>false</text>
+    <feedback format="html"><text><![CDATA[<p> Faux</p>]]></text></feedback>
+  </answer>
+</question>
+<question type="truefalse">
+  <name format="html">
+    <text><![CDATA[q-748]]></text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>\(\sqrt {27}+\sqrt {3}=4\sqrt {3}\) </p>]]></text>
+  </questiontext>
+  <defaultgrade>1.0</defaultgrade>
+  <generalfeedback format="html"><text/></generalfeedback>
+  <penalty>1</penalty>
+  <hidden>0</hidden>
+  <answer fraction="100" format="plain_text">
+    <text>true</text>
+    <feedback format="html"><text><![CDATA[<p> Vrai </p>]]></text></feedback>
+  </answer>
+  <answer fraction="0" format="plain_text">
+    <text>false</text>
+    <feedback format="html"><text><![CDATA[<p>Faux</p>]]></text></feedback>
+  </answer>
+</question>
+<question type="truefalse">
+  <name format="html">
+    <text><![CDATA[q-749]]></text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>\(\sqrt {12}+\sqrt {3}=5\sqrt {3}\) </p>]]></text>
+  </questiontext>
+  <defaultgrade>1.0</defaultgrade>
+  <generalfeedback format="html"><text/></generalfeedback>
+  <penalty>1</penalty>
+  <hidden>0</hidden>
+  <answer fraction="0" format="plain_text">
+    <text>true</text>
+    <feedback format="html"><text><![CDATA[<p>Vrai </p>]]></text></feedback>
+  </answer>
+  <answer fraction="100" format="plain_text">
+    <text>false</text>
+    <feedback format="html"><text><![CDATA[<p> Faux</p>]]></text></feedback>
+  </answer>
+</question>
+<question type="truefalse">
+  <name format="html">
+    <text><![CDATA[q-758]]></text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>\((\sqrt {2}+2)(\sqrt {2}-1)=\sqrt {2}\) </p>]]></text>
+  </questiontext>
+  <defaultgrade>1.0</defaultgrade>
+  <generalfeedback format="html"><text/></generalfeedback>
+  <penalty>1</penalty>
+  <hidden>0</hidden>
+  <answer fraction="100" format="plain_text">
+    <text>true</text>
+    <feedback format="html"><text><![CDATA[<p> Vrai </p>]]></text></feedback>
+  </answer>
+  <answer fraction="0" format="plain_text">
+    <text>false</text>
+    <feedback format="html"><text><![CDATA[<p>Faux</p>]]></text></feedback>
+  </answer>
+</question>
+<question type="truefalse">
+  <name format="html">
+    <text><![CDATA[q-761]]></text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>\((\sqrt {3}-1)(1-\sqrt {3})=-4-2\sqrt {3}\) </p>]]></text>
+  </questiontext>
+  <defaultgrade>1.0</defaultgrade>
+  <generalfeedback format="html"><text/></generalfeedback>
+  <penalty>1</penalty>
+  <hidden>0</hidden>
+  <answer fraction="0" format="plain_text">
+    <text>true</text>
+    <feedback format="html"><text><![CDATA[<p>Vrai </p>]]></text></feedback>
+  </answer>
+  <answer fraction="100" format="plain_text">
+    <text>false</text>
+    <feedback format="html"><text><![CDATA[<p> Faux</p>]]></text></feedback>
+  </answer>
+</question>
+<question type="truefalse">
+  <name format="html">
+    <text><![CDATA[q-767]]></text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>\((\sqrt {18}+\sqrt {8})\sqrt {2}=10\) </p>]]></text>
+  </questiontext>
+  <defaultgrade>1.0</defaultgrade>
+  <generalfeedback format="html"><text/></generalfeedback>
+  <penalty>1</penalty>
+  <hidden>0</hidden>
+  <answer fraction="100" format="plain_text">
+    <text>true</text>
+    <feedback format="html"><text><![CDATA[<p> Vrai </p>]]></text></feedback>
+  </answer>
+  <answer fraction="0" format="plain_text">
+    <text>false</text>
+    <feedback format="html"><text><![CDATA[<p>Faux</p>]]></text></feedback>
+  </answer>
+</question>
+<question type="truefalse">
+  <name format="html">
+    <text><![CDATA[q-775]]></text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[<p>\(\sqrt {4+2\sqrt {3}}=1+\sqrt {3}\) </p>]]></text>
+  </questiontext>
+  <defaultgrade>1.0</defaultgrade>
+  <generalfeedback format="html"><text/></generalfeedback>
+  <penalty>1</penalty>
+  <hidden>0</hidden>
+  <answer fraction="100" format="plain_text">
+    <text>true</text>
+    <feedback format="html"><text><![CDATA[<p> Vrai </p>]]></text></feedback>
+  </answer>
+  <answer fraction="0" format="plain_text">
+    <text>false</text>
+    <feedback format="html"><text><![CDATA[<p>Faux</p>]]></text></feedback>
+  </answer>
+</question>
+ 
+</quiz>

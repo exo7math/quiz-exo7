@@ -1,0 +1,49 @@
+\documentclass[a4paper,10pt]{article}
+
+% - - - - - - - - -
+% ATTENTION
+% - - - - - - - - -
+%
+% Ceci doit être compilé en LUALATEX, et *pas* en pdflatex  !
+%
+% (raison pour laquelle il manque fontenc, inputenc etc)
+% pdflatex produit des erreurs, lua non.
+
+
+\usepackage[margin=2cm]{geometry}
+\usepackage{amssymb,amsthm,amsmath,mathrsfs,stmaryrd,multicol,comment} 
+\usepackage{tikz}
+\usepackage{moodle}
+
+\newcommand\pad[1]{\ifnum #1 < 1000 0\fi \ifnum #1 < 100 0\fi \ifnum #1 < 10 0\fi #1} % un peu moche mais bon : sert à ajouetr la bonne quantité de zéros devant un numero de question
+
+
+% packages et macros pour questions Maxime :
+\usepackage{mathdots}
+\newcommand{\R}{\mathbb R}
+\newcommand{\C}{\mathbb C}
+\newcommand{\N}{\mathbb N}
+\newcommand{\Z}{\mathbb Z}
+\newcommand{\eq}[1]{\underset{#1}{\sim}}
+\newcommand{\cvg}[1]{\xrightarrow[#1]{}}
+\DeclareMathOperator{\tr}{Tr}
+\DeclareMathOperator{\id}{Id}
+\DeclareMathOperator{\rg}{rg}
+\DeclareMathOperator{\im}{Im}
+\DeclareMathOperator{\Mat}{Mat}
+
+
+
+\begin{document}
+\begin{quiz}{Essai de quiz}
+\section{Valeurs absolues}
+\foreach \n in {1, 2,3,6,12,19} {%
+	\input{../latex_moodle/10\pad{\n}.tex}%
+}%
+
+\section{Racines carrées}
+\foreach \n in {748,749,758,761,767,775} {%
+	\input{../latex_moodle/10\pad{\n}.tex}%
+}%
+\end{quiz}
+\end{document}
