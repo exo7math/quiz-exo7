@@ -23,8 +23,9 @@ En cours de construction : une page web permettra de visualiser toutes les quest
 
 Contributeurs
 ---
+En espérant n'oublier personne (contactez-moi (DM) le cas échéant): 
 
-Pour l'instant, Damien Mégy, Maxime Bourrigan, d'autres en attente de validation !
+Maxime Bourrigan, Pierre-Emmanuel Chaput, Auguste Hébert, Florian Grausem, Damien Mégy, Youssef Sedrati
 
 
 
